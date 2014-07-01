@@ -1,0 +1,59 @@
+body {
+    margin: 0; /*Override default*/
+    position: relative;
+    background-color: #002b36;
+    width: 100%;
+}
+
+header {
+    height: 2em;
+    width: 100%;
+    background-color: #657777;
+}
+
+a {
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+a:before {
+    content: "[ ";
+}
+
+a:after {
+    content: " ]";
+}
+
+.ip {
+    width: 16em;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    position: relative;
+    top: 0.5em;
+    width: 100%;
+}
+
+#links {
+    height: 90%;
+    position: absolute;
+    top: 2em;
+    width: 100%;
+}
+
+#linkHolder {
+    background-color: #889999;
+    position: relative;
+    top: 1em;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}

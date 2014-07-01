@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.raspberrystem.ide" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>raspberrySTEM IDE</name>
+    <description>
+        Mobile IDE thingy that does some stuff.
+    </description>
+    <author email="stephan@raspberrystem.com" href="http://raspberrystem.com">
+        Stephan Wolski
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
